@@ -1,2 +1,1 @@
-# Spende
-Expense Tracker app
+I developed Spendle, an expense tracker project using HTML, CSS, and JavaScript. With Spendle, you can seamlessly add expense details, edit or delete entries, and effortlessly track your total expenses for specific dates.
