@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  background-color: #343A40;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.spendle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3em;
+  color: #0077cc;
+}
+
+.totalExpense {
+  text-align: center;
+}
+
+.monthlyExpense {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.day {
+  font-size: 1.5em;
+  color: white;
+}
+
+
+
+.recents {
+  flex: 1;
+}
+
+.recents h2 {
+  margin-bottom: 10px;
+  color: #0077cc;
+}
+
+.addBtn {
+  width: 50px;
+  height: 50px;
+  background-color: #0077cc;
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.addBtn::after {
+  content: '+';
+  font-size: 2em;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addTrans {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  color: #0077cc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.expenseInput,
+.expenseAmount {
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #4a4a4a;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.save {
+  padding: 15px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.edit,
+.delete {
+  padding: 10px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+
+}
+
+.save:hover,
+.edit:hover,
+.delete:hover {
+  background-color: #005580;
+}
+
+.edit::before,
+.delete::before {
+  margin-right: 8px;
+  font-size: o.6em;
+}
+
+.edit::before {
+  content: '\270E'; 
+}
+
+.delete::before {
+  content: '\1F5D1'; 
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newExpense-content {
+  background-color: #3a3a3a;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.newExpense-content:hover {
+  background-color: #4a4a4a;
+}

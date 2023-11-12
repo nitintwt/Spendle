@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spendle</title>
+  <link rel="stylesheet" href="spendle.css">
+</head>
+<body>
+  <main>
+    <h1 class="spendle">Spendle</h1>
+
+    <section class="totalExpense">
+      <h1 class="monthlyExpense">0</h1>
+      <h2 class="day">0</h2>
+    </section>
+
+    <section class="addTrans">
+      <h1>Add Transaction</h1>
+    </section>
+    <input type="text" class="expenseInput" placeholder="Expense Name">
+    <input type="text" class="expenseAmount" placeholder="Expense Amount">
+    <button class="save" onclick="addTask()">Add</button>
+    <section class="recents">
+     <h2>Recents</h2>
+     <div class="expenses"></div>
+   </section>
+  </main>
+  <script src="spendle.js"></script>
+</body>
+</html>
